@@ -1,4 +1,4 @@
-g<-read.csv("Expt 3- Dataset_Hypothesis_csv.csv")
+g<-read.csv("Hypothesis_csv1.csv")
 m<-mean(g$Life_Hrs)
 cat("\n Mean of Life Hrs is ",m)
 s<-sd(g$Life_Hrs)
