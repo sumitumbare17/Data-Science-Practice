@@ -1,3 +1,4 @@
+cat("\n \n \n case 1 ")
 g<-read.csv("Hypothesis_csv1.csv")
 m<-mean(g$Life_Hrs)
 cat("\n Mean of Life Hrs is ",m)
